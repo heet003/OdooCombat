@@ -32,7 +32,7 @@ const App = () => {
         <Route path="/book" element={<BookForm />} />
         <Route path="/add" element={<Advertise />} />
         <Route path="/listing" element={<RecyclersList />} />
-        <Route path="/recycler/:id" component={RecyclerDetails} />
+        <Route path="/recycler/:id" element={<RecyclerDetails />} />
         <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
     );

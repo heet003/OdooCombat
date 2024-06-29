@@ -9,7 +9,7 @@ const getUsingID = async (req, res) => {
   var { id } = req.params;
   let data;
   try {
-    data = await Recycler.find({ city: city });
+    data = await Recycler.find({ _id: id });
   } catch (err) {
     const error = new HttpError(
       "Signing up failed, please try again later.",
@@ -23,7 +23,8 @@ const getUsingID = async (req, res) => {
 
 const getRecyclers = async (req, res) => {
   var { city } = req.body;
-  city = city[0].toUpperCase() + city.slice(1);
+  city = city.toLowerCase();
+  console.log(city);
   let data;
   try {
     data = await Recycler.find({ city: city });

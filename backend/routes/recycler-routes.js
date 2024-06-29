@@ -6,6 +6,7 @@ const recyclerController = require("../controllers/recycler-controller");
 const router = express.Router();
 
 router.get("/:id", recyclerController.getUsingID);
+
 router.post("/", recyclerController.getRecyclers);
 
 router.use(checkAuth);

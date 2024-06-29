@@ -4,31 +4,7 @@ import "./RecyclersList.css";
 
 function RecyclersList(props) {
   const [city, setCity] = useState("");
-  const [recyclerData, setRecyclerData] = useState([
-    {
-      name: "Ahmedabad E-Waste Recyclers",
-      contact: {
-        phone: "+91 98765XXXXX",
-        email: "info@ahmedabadewaste.com",
-      },
-      city: "Ahmedabad",
-      address: "101, Green Tech Park, S.G. Highway, Ahmedabad, Gujarat, India",
-      acceptedEWaste: [
-        "Computers",
-        "Laptops",
-        "Mobile phones",
-        "Printers",
-        "Electronic accessories",
-      ],
-
-      service_areas: ["Ahmedabad city", "Nearby regions"],
-      testimonials: [
-        "Ahmedabad E-Waste Recyclers provided effective and eco-friendly e-waste solutions.",
-      ],
-      customer_rating: 4.7,
-      pricingPerKg: 14,
-    },
-  ]);
+  const [recyclerData, setRecyclerData] = useState([]);
 
   async function submitHandler(event) {
     event.preventDefault();
