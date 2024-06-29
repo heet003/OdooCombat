@@ -6,7 +6,8 @@
     padding: 50px;
     min-height: 70vh;
 }
-.hero a{
+
+.hero a {
     padding: 10px;
     text-decoration: none;
     color: white;
@@ -14,7 +15,7 @@
     border-radius: 10px;
 }
 
-.hero a:hover{
+.hero a:hover {
     background-color: #78ff81;
 }
 

@@ -40,7 +40,7 @@ app.use((req, res, next) => {
 
 mongoose
   .connect(
-    `mongodb+srv://heetB:f0JsN1kO1KV3iYdc@cluster0.umdmyvs.mongodb.net/odooDB?retryWrites=true&w=majority&appName=Cluster0`
+    `mongodb+srv://heetB:yfJrlEA2Sss4QsVn@cluster0.umdmyvs.mongodb.net/odooDB?retryWrites=true&w=majority&appName=Cluster0`
   )
   .then(() => {
     app.listen(5000, () => {

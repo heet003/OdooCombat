@@ -4,23 +4,6 @@ const HttpError = require("../models/http-error");
 const User = require("../models/user");
 const Booking = require("../models/booking");
 
-// async function getBookings(req, res) {
-//   const userId = req.userData.userId;
-
-//   let user;
-//   try {
-//     const user = await User.findById(userId).populate("bookings");
-//     if (!user) {
-//       return res.status(404).json({ message: "User not found" });
-//     }
-//     res.json({ bookings: user.bookings });
-//   } catch (error) {
-//     res
-//       .status(500)
-//       .json({ message: "Fetching bookings failed, please try again later" });
-//   }
-// }
-
 const signup = async (req, res) => {
   const {
     type,
@@ -213,7 +196,6 @@ async function bookSlot(req, res) {
   }
 }
 
-exports.getBookings = getBookings;
 exports.signup = signup;
 exports.login = login;
 exports.bookSlot = bookSlot;
