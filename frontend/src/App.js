@@ -17,6 +17,7 @@ import { useAuth } from "./components/hooks/auth-hook";
 import Footer from "./components/Footer/Footer";
 import Advertise from "./components/Advertise/Advertise";
 import RecyclerDetails from "./components/RecyclerDetails/RecyclerDetails";
+import UserBookings from "./components/MyBooking/UserBookings";
 
 const App = () => {
   const { token, login, logout, userId, role } = useAuth();
@@ -32,6 +33,7 @@ const App = () => {
         <Route path="/book" element={<BookForm />} />
         <Route path="/add" element={<Advertise />} />
         <Route path="/listing" element={<RecyclersList />} />
+        {/* <Route path="/userBookings" element={<UserBookings />} /> */}
         <Route path="/recycler/:id" element={<RecyclerDetails />} />
         <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>

@@ -1,8 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Home.css";
+import { useAuth } from "../hooks/auth-hook";
 
 function Home(props) {
+  const { role } = useAuth();
+
   return (
     <section className="hero">
       <div className="hero-content">
@@ -11,9 +14,8 @@ function Home(props) {
           Join us in making the world a cleaner place. Recycle your e-waste
           responsibly with our easy-to-use platform.
         </p>
-        <Link to="/book-a-slot" className="hero-button">
-          Book a Slot
-        </Link>
+        {role === "user" && <Link to="/book">Book A Slot</Link>}
+        {role === "recycler" && <Link to="/add">Advertise</Link>}
       </div>
       <div className="hero-image">
         <img src="./images/homeright.jpg" alt="Recycling" />

@@ -1,0 +1,37 @@
+.bookings-container {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.bookings-container h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.bookings-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.booking-item {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.booking-item:last-child {
+    border-bottom: none;
+}
+
+.booking-details p {
+    margin: 5px 0;
+}
+
+.booking-details p strong {
+    font-weight: bold;
+}

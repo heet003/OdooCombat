@@ -50,6 +50,16 @@ function Header() {
             Listing
           </NavLink>
         </li>
+        {/* <li>
+          {token && (
+            <NavLink
+              to="/userBookings"
+              className={pathname === "/userBookings" ? "active" : ""}
+            >
+              My Booking
+            </NavLink>
+          )}
+        </li> */}
         <li>
           {token ? (
             <NavLink

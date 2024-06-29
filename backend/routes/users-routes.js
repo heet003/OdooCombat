@@ -10,7 +10,10 @@ router.post("/signup", usersController.signup);
 router.post("/login", usersController.login);
 
 router.use(checkAuth);
+router.post("/getBook", usersController.getBookings);
+
 
 router.post("/book-slot", usersController.bookSlot);
+
 
 module.exports = router;

@@ -6,6 +6,17 @@
     padding: 50px;
     min-height: 70vh;
 }
+.hero a{
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    background-color: #2e7d32;
+    border-radius: 10px;
+}
+
+.hero a:hover{
+    background-color: #78ff81;
+}
 
 .hero-content {
     max-width: 50%;

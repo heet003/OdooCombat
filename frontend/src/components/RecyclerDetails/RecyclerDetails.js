@@ -8,7 +8,6 @@ function RecyclerDetails() {
 
   useEffect(() => {
     async function fetchRecyclerDetails() {
-      console.log("HERE");
       try {
         const response = await fetch(
           `http://localhost:5000/api/recyclers/${id}`,
@@ -20,7 +19,6 @@ function RecyclerDetails() {
           throw new Error("Failed to fetch recycler details");
         }
         const data = await response.json();
-        console.log(data);
         setRecycler(data.data[0]); // Assuming data structure matches what you expect
       } catch (error) {
         console.error(error);
