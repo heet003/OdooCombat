@@ -2,52 +2,45 @@ import React from "react";
 import {
   BrowserRouter as Router,
   Route,
-  Redirect,
+  Navigate,
   Routes,
 } from "react-router-dom";
 
-// import Users from "./user/pages/Users";
-// import NewPlace from "./places/pages/NewPlace";
-// import UserPlaces from "./places/pages/UserPlaces";
-// import UpdatePlace from "./places/pages/UpdatePlace";
+import Header from "./components/Header/Header";
+import Home from "./components/Home/Home";
+import About from "./components/About/About";
+import BookForm from "./components/BookForm/BookForm";
+import RecyclersList from "./components/RecyclersList/RecyclersList";
 import Auth from "./components/Auth/Auth";
 import { AuthContext } from "./components/context/auth-context";
-import { useAuth } from "./shared/hooks/auth-hook";
+import { useAuth } from "./components/hooks/auth-hook";
+import Footer from "./components/Footer/Footer";
 
 const App = () => {
   const { token, login, logout, userId } = useAuth();
 
   let routes;
 
-  if (token) {
+  if (!token) {
     routes = (
       <Routes>
-        <Route path="/" exact>
-          {/* <Users /> */}
-        </Route>
-        <Route path="/:userId/places" exact>
-          {/* <UserPlaces /> */}
-        </Route>
-        <Route path="/places/new" exact>
-          {/* <NewPlace /> */}
-        </Route>
-        <Route path="/places/:placeId">{/* <UpdatePlace /> */}</Route>
-        <Redirect to="/" />
+        <Route path="/" element={<Home />} />
+        <Route path="/auth" element={<Auth />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/book" element={<BookForm />} />
+        <Route path="/listing" element={<RecyclersList />} />
+        <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
     );
   } else {
     routes = (
       <Routes>
-        <Route path="/" exact>
-          {/* <Users /> */}
-        </Route>
-        <Route path="/:userId/places" exact>
-          {/* <UserPlaces /> */}
-        </Route>
-        <Route path="/auth">
-          <Auth />
-        </Route>
-        <Redirect to="/auth" />
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/book" element={<Auth />} />
+        <Route path="/listing" element={<Auth />} />
+        <Route path="/auth" element={<Auth />} />
+        <Route path="*" element={<Navigate to="/auth" replace />} />
       </Routes>
     );
   }
@@ -63,8 +56,9 @@ const App = () => {
       }}
     >
       <Router>
-        {/* <MainNavigation /> */}
+        <Header />
         <main>{routes}</main>
+        <Footer />
       </Router>
     </AuthContext.Provider>
   );
