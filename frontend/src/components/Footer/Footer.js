@@ -1,9 +1,9 @@
 // Footer.jsx
 import React from "react";
-import "./Footer.css"; // Make sure to create a Footer.css file for styling
-import { FaInstagram, FaTwitter } from "react-icons/fa";
+import "./Footer.css";
 
 const Footer = () => {
+  const year = new Date().getFullYear();
   return (
     <footer className="footer">
       <div className="footer-content">
@@ -12,24 +12,21 @@ const Footer = () => {
             href="https://instagram.com"
             target="_blank"
             rel="noopener noreferrer"
-            className="social-icon"
           >
-            <FaInstagram />
+            <img src="./images/instagram.png" alt="Instagram" />
           </a>
           <a
             href="https://twitter.com"
             target="_blank"
             rel="noopener noreferrer"
-            className="social-icon"
           >
-            <FaTwitter />
+            <img src="./images/twitter.png" alt="Twitter" />
           </a>
         </div>
-        <div className="footer-info">
-          <p>&copy; 2024 E-Waste Management. All rights reserved.</p>
-          <p>Contact us: info@ewastemanagement.com | +123 456 7890</p>
-          <p>Address: 123 Green Way, Sustainability City, Earth</p>
-        </div>
+        <p className="copyright">
+          &copy; {year} E-Waste Management. All rights
+          reserved.
+        </p>
       </div>
     </footer>
   );

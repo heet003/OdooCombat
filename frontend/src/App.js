@@ -15,20 +15,24 @@ import Auth from "./components/Auth/Auth";
 import { AuthContext } from "./components/context/auth-context";
 import { useAuth } from "./components/hooks/auth-hook";
 import Footer from "./components/Footer/Footer";
+import Advertise from "./components/Advertise/Advertise";
+import RecyclerDetails from "./components/RecyclerDetails/RecyclerDetails";
 
 const App = () => {
-  const { token, login, logout, userId } = useAuth();
+  const { token, login, logout, userId, role } = useAuth();
 
   let routes;
 
-  if (!token) {
+  if (token) {
     routes = (
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/auth" element={<Auth />} />
         <Route path="/about" element={<About />} />
         <Route path="/book" element={<BookForm />} />
+        <Route path="/add" element={<Advertise />} />
         <Route path="/listing" element={<RecyclersList />} />
+        <Route path="/recycler/:id" component={RecyclerDetails} />
         <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
     );
@@ -51,6 +55,7 @@ const App = () => {
         isLoggedIn: !!token,
         token: token,
         userId: userId,
+        role: role,
         login: login,
         logout: logout,
       }}

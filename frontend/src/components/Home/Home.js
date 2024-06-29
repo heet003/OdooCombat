@@ -16,7 +16,7 @@ function Home(props) {
         </Link>
       </div>
       <div className="hero-image">
-        <img src="./homeright.jpg" alt="Recycling" />
+        <img src="./images/homeright.jpg" alt="Recycling" />
       </div>
     </section>
   );

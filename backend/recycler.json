@@ -1,0 +1,730 @@
+[
+{
+      "name": "Ahmedabad E-Waste Recyclers",
+      "contact": {
+        "phone": "+91 98765XXXXX",
+        "email": "info@ahmedabadewaste.com"
+      },
+      "city":"ahmedabad",
+      "address": "101, Green Tech Park, S.G. Highway, Ahmedabad, Gujarat, India",
+      "accepted_e_waste": [
+        "Computers",
+        "Laptops",
+        "Mobile phones",
+        "Printers",
+        "Electronic accessories"
+      ],
+      "processing_info": {
+        "dismantling": "Systematic disassembly of electronics into core components.",
+        "sorting": "Efficient segregation of materials like metals, plastics, and circuit boards.",
+        "shredding": "Preparation of non-reusable parts for recycling.",
+        "recycling": "Environmentally-friendly methods to recover valuable materials."
+      },
+      "service_areas": [
+        "Ahmedabad city",
+        "Nearby regions"
+      ],
+      "testimonials": [
+        "Ahmedabad E-Waste Recyclers provided effective and eco-friendly e-waste solutions."
+      ],
+      "customer_rating": 4.7,
+      "pricing_per_kg": 14
+},
+    {
+      "name": "EcoRecycle Ahmedabad",
+      "contact": {
+        "phone": "+91 98765XXXXX",
+        "email": "contact@ecorecycleahmedabad.com"
+      },
+      "city":"ahmedabad",
+      "address": "202, Green Park, Satellite, Ahmedabad, Gujarat, India",
+      "accepted_e_waste": [
+        "Mobile phones",
+        "Tablets",
+        "Batteries",
+        "Consumer electronics"
+      ],
+      "processing_info": {
+        "refurbishment": "Reconditioning of reusable electronics for resale or donation.",
+        "recycling": "Eco-friendly methods for non-reusable components.",
+        "data_destruction": "Secure data wiping services to ensure data protection."
+      },
+      "service_areas": [
+        "Ahmedabad metropolitan area"
+      ],
+      "testimonials": [
+        "EcoRecycle Ahmedabad provided reliable and eco-conscious e-waste management."
+      ],
+      "customer_rating": 4.6,
+      "pricing_per_kg": 13
+    },
+    {
+      "name": "GreenCycle Ahmedabad",
+      "contact": {
+        "phone": "+91 98765XXXXX",
+        "email": "support@greencycleahmedabad.in"
+      },
+      "city":"ahmedabad",
+      "address": "303, Eco Plaza, Ellisbridge, Ahmedabad, Gujarat, India",
+      "accepted_e_waste": [
+        "Computers",
+        "Servers",
+        "Networking equipment",
+        "Medical devices"
+      ],
+      "processing_info": {
+        "secure_data_destruction": "Certified processes for data wiping and destruction.",
+        "component_recovery": "Extraction of reusable materials and precious metals.",
+        "environmental_compliance": "Adherence to strict environmental standards."
+      },
+      "service_areas": [
+        "Ahmedabad",
+        "Surrounding industrial zones"
+      ],
+      "testimonials": [
+        "GreenCycle Ahmedabad provided exemplary service in managing our company's e-waste."
+      ],
+      "customer_rating": 4.8,
+      "pricing_per_kg": 15
+    },
+    {
+      "name": "RecycleIT Ahmedabad",
+      "contact": {
+        "phone": "+91 98765XXXXX",
+        "email": "info@recycleitahmedabad.com"
+      },
+      "city":"ahmedabad",
+      "address": "404, IT Hub, Bopal, Ahmedabad, Gujarat, India",
+      "accepted_e_waste": [
+        "Printers",
+        "Monitors",
+        "Electronic accessories",
+        "Household electronics"
+      ],
+      "processing_info": {
+        "advanced_sorting": "Technological sorting for efficient material separation.",
+        "environmental_practices": "Eco-friendly methods for handling hazardous materials.",
+        "certifications": "Compliance with environmental regulations."
+      },
+      "service_areas": [
+        "Ahmedabad city",
+        "Suburban areas"
+      ],
+      "testimonials": [
+        "RecycleIT Ahmedabad provided reliable and environmentally responsible e-waste recycling."
+      ],
+      "customer_rating": 4.6,
+      "pricing_per_kg": 14
+    },
+    {
+      "name": "E-Waste Solutions Ahmedabad",
+      "contact": {
+        "phone": "+91 98765XXXXX",
+        "email": "contact@ewasteahmedabad.com"
+      },
+      "city":"ahmedabad",
+      "address": "505, EcoWorld, C.G. Road, Ahmedabad, Gujarat, India",
+      "accepted_e_waste": [
+        "Televisions",
+        "Audio equipment",
+        "Kitchen appliances",
+        "Electronic toys"
+      ],
+      "processing_info": {
+        "safe_dismantling": "Disassembly of electronics for material recovery.",
+        "material_recovery": "Extraction of valuable materials through sustainable practices.",
+        "community_engagement": "Education and promotion of eco-friendly e-waste practices."
+      },
+      "service_areas": [
+        "Ahmedabad urban",
+        "Rural areas"
+      ],
+      "testimonials": [
+        "E-Waste Solutions Ahmedabad provided excellent service and exceeded our expectations."
+      ],
+      "customer_rating": 4.5,
+      "pricing_per_kg": 12
+    },
+    {
+      "name": "EcoTech Recyclers",
+      "contact": {
+        "phone": "+91 98765XXXXX",
+        "email": "info@ecotechrecyclers.com"
+      },
+      "city":"surat",
+      "address": "123, Eco Avenue, Surat, Gujarat, India",
+      "accepted_e_waste": [
+        "Computers",
+        "Laptops",
+        "Mobile phones",
+        "Printers"
+      ],
+      "processing_info": {
+        "dismantling": "They use advanced techniques to dismantle electronics into component parts.",
+        "sorting": "Materials like metals, plastics, and circuit boards are sorted for efficient recycling.",
+        "shredding": "Non-reusable components are shredded to prepare for recycling.",
+        "recycling": "They utilize eco-friendly methods to recover valuable materials and minimize environmental impact."
+      },
+      "service_areas": [
+        "Surat city",
+        "Nearby industrial zones"
+      ],
+      "testimonials": [
+        "EcoTech Recyclers provided exceptional service in handling our company's e-waste."
+      ],
+      "customer_rating": 4.8,
+      "pricing_per_kg": 14
+    },
+    {
+      "name": "GreenCycle Solutions",
+      "contact": {
+        "phone": "+91 98765XXXXX",
+        "email": "contact@greencyclesolutions.in"
+      },
+      "city":"surat",
+      "address": "456, Green Street, Surat, Gujarat, India",
+      "accepted_e_waste": [
+        "Mobile phones",
+        "Tablets",
+        "Batteries"
+      ],
+      "processing_info": {
+        "refurbishment": "They refurbish and prepare reusable electronics for resale or donation.",
+        "recycling": "Non-reusable components and obsolete electronics are recycled using eco-friendly methods.",
+        "data_destruction": "They ensure secure data destruction to protect sensitive information."
+      },
+      "service_areas": [
+        "Surat metropolitan area"
+      ],
+      "testimonials": [
+        "GreenCycle Solutions exceeded our expectations with their eco-friendly e-waste solutions."
+      ],
+      "customer_rating": 4.5,
+      "pricing_per_kg": 12
+    },
+    {
+      "name": "Surat E-Waste Management",
+      "contact": {
+        "phone": "+91 98765XXXXX",
+        "email": "info@suratewastemanagement.com"
+      },
+      "city":"surat",
+      "address": "789, Eco Road, Surat, Gujarat, India",
+      "accepted_e_waste": [
+        "Computers",
+        "Servers",
+        "Networking equipment"
+      ],
+      "processing_info": {
+        "secure_data_destruction": "Certified processes for secure data wiping from all electronic devices.",
+        "component_extraction": "They extract reusable components and valuable materials like metals and plastics.",
+        "environmental_compliance": "They adhere to environmental regulations for responsible recycling."
+      },
+      "service_areas": [
+        "Surat",
+        "Surrounding industrial estates"
+      ],
+      "testimonials": [
+        "Surat E-Waste Management provided efficient and secure handling of our e-waste."
+      ],
+      "customer_rating": 4.7,
+      "pricing_per_kg": 13
+    },
+    {
+      "name": "EcoGreen Recycling Solutions",
+      "contact": {
+        "phone": "+91 98765XXXXX",
+        "email": "support@ecogreenrecycling.co.in"
+      },
+      "city":"surat",
+      "address": "321, Green Boulevard, Surat, Gujarat, India",
+      "accepted_e_waste": [
+        "Printers",
+        "Monitors",
+        "Electronic accessories"
+      ],
+      "processing_info": {
+        "advanced_sorting": "They utilize advanced technologies for sorting and segregating different types of electronic waste.",
+        "environmentally_friendly_practices": "They use eco-friendly methods for handling hazardous materials and recycling processes.",
+        "certifications": "They are certified for their responsible recycling practices."
+      },
+      "service_areas": [
+        "Surat city",
+        "Suburban areas"
+      ],
+      "testimonials": [
+        "EcoGreen Recycling Solutions provided reliable and environmentally conscious e-waste recycling."
+      ],
+      "customer_rating": 4.6,
+      "pricing_per_kg": 15
+    },
+    {
+      "name": "Surat EcoRecyclers",
+      "contact": {
+        "phone": "+91 98765XXXXX",
+        "email": "info@suratecorecyclers.com"
+      },
+      "city":"surat",
+      "address": "567, Eco Park, Surat, Gujarat, India",
+      "accepted_e_waste": [
+        "Televisions",
+        "Audio equipment",
+        "Home appliances"
+      ],
+      "processing_info": {
+        "safe_dismantling": "They practice safe dismantling procedures to recover reusable components and recyclable materials.",
+        "material_recovery": "They emphasize the recovery of valuable materials like metals and plastics through sustainable recycling processes.",
+        "community_engagement": "They engage the community in promoting responsible e-waste recycling practices."
+      },
+      "service_areas": [
+        "Surat urban",
+        "Rural areas"
+      ],
+      "testimonials": [
+        "Surat EcoRecyclers provided excellent service and exceeded our expectations in e-waste management."
+      ],
+      "customer_rating": 4.4,
+      "pricing_per_kg": 11
+    },
+    {
+      "name": "CleanEarth Recyclers",
+      "contact": {
+        "phone": "+91 98765XXXXX",
+        "email": "info@cleanearthrecyclers.com"
+      },
+      "city":"vadodara",
+      "address": "101, Eco Plaza, Alkapuri, Vadodara, Gujarat, India",
+      "accepted_e_waste": [
+        "Computers",
+        "Laptops",
+        "Mobile phones",
+        "Printers",
+        "Electronic accessories"
+      ],
+      "processing_info": {
+        "dismantling": "Use of advanced techniques to disassemble electronics into components.",
+        "sorting": "Segregation of materials like metals, plastics, and circuit boards.",
+        "shredding": "Non-reusable parts are shredded to prepare for recycling.",
+        "recycling": "Environmentally responsible methods to recover valuable materials and minimize environmental impact."
+      },
+      "service_areas": [
+        "Vadodara city",
+        "Surrounding regions"
+      ],
+      "testimonials": [
+        "CleanEarth Recyclers provided excellent and sustainable e-waste solutions."
+      ],
+      "customer_rating": 4.8,
+      "pricing_per_kg": 14
+    },
+    {
+      "name": "EcoSolutions Recycling",
+      "contact": {
+        "phone": "+91 98765XXXXX",
+        "email": "contact@ecosolutionsrecycling.in"
+      },
+      "city":"vadodara",
+      "address": "202, Green Tower, Manjalpur, Vadodara, Gujarat, India",
+      "accepted_e_waste": [
+        "Mobile phones",
+        "Tablets",
+        "Batteries",
+        "Consumer electronics"
+      ],
+      "processing_info": {
+        "refurbishment": "Reconditioning of reusable electronics for resale or donation.",
+        "recycling": "Eco-friendly methods for non-reusable components.",
+        "data_destruction": "Secure data wiping services to ensure data protection."
+      },
+      "service_areas": [
+        "Vadodara metropolitan area"
+      ],
+      "testimonials": [
+        "EcoSolutions Recycling provided reliable and eco-friendly e-waste management."
+      ],
+      "customer_rating": 4.6,
+      "pricing_per_kg": 13
+    },
+    {
+      "name": "TechRecyclers Vadodara",
+      "contact": {
+        "phone": "+91 98765XXXXX",
+        "email": "info@techrecyclersvadodara.com"
+      },
+      "city":"vadodara",
+      "address": "303, Tech Park, Gotri, Vadodara, Gujarat, India",
+      "accepted_e_waste": [
+        "Computers",
+        "Servers",
+        "Networking equipment",
+        "Medical devices"
+      ],
+      "processing_info": {
+        "secure_data_destruction": "Certified processes for data wiping and destruction.",
+        "component_recovery": "Extraction of reusable materials and precious metals.",
+        "environmental_compliance": "Adherence to strict environmental standards."
+      },
+      "service_areas": [
+        "Vadodara",
+        "Surrounding industrial zones"
+      ],
+      "testimonials": [
+        "TechRecyclers Vadodara provided exceptional service in managing our e-waste."
+      ],
+      "customer_rating": 4.9,
+      "pricing_per_kg": 16
+    },
+    {
+      "name": "GreenPlanet Recyclers",
+      "contact": {
+        "phone": "+91 98765XXXXX",
+        "email": "support@greenplanetrecyclers.co.in"
+      },
+      "city":"vadodara",
+      "address": "404, Planet Building, Fatehgunj, Vadodara, Gujarat, India",
+      "accepted_e_waste": [
+        "Printers",
+        "Monitors",
+        "Electronic accessories",
+        "Household electronics"
+      ],
+      "processing_info": {
+        "advanced_sorting": "Technological sorting for efficient material separation.",
+        "environmental_practices": "Eco-friendly methods for handling hazardous materials.",
+        "certifications": "Compliance with environmental regulations."
+      },
+      "service_areas": [
+        "Vadodara city",
+        "Suburban areas"
+      ],
+      "testimonials": [
+        "GreenPlanet Recyclers provided reliable and environmentally responsible e-waste recycling."
+      ],
+      "customer_rating": 4.7,
+      "pricing_per_kg": 15
+    },
+    {
+      "name": "RecycleIT Solutions",
+      "contact": {
+        "phone": "+91 98765XXXXX",
+        "email": "info@recycleitsolutions.com"
+      },
+      "city":"vadodara",
+      "address": "505, EcoHub, Karelibaug, Vadodara, Gujarat, India",
+      "accepted_e_waste": [
+        "Televisions",
+        "Audio equipment",
+        "Kitchen appliances",
+        "Electronic toys"
+      ],
+      "processing_info": {
+        "safe_dismantling": "Disassembly of electronics for material recovery.",
+        "material_recovery": "Extraction of valuable materials through sustainable practices.",
+        "community_engagement": "Education and promotion of eco-friendly e-waste practices."
+      },
+      "service_areas": [
+        "Vadodara urban",
+        "Rural areas"
+      ],
+      "testimonials": [
+        "RecycleIT Solutions provided excellent service and exceeded our expectations."
+      ],
+      "customer_rating": 4.5,
+      "pricing_per_kg": 12
+    },
+    {
+      "name": "Rajkot E-Waste Solutions",
+      "contact": {
+        "phone": "+91 98765XXXXX",
+        "email": "contact@rajkote-wastesolutions.com"
+      },
+      "city":"rajkot",
+      "address": "101, Green Avenue, Kalavad Road, Rajkot, Gujarat, India",
+      "accepted_e_waste": [
+        "Computers",
+        "Laptops",
+        "Mobile phones",
+        "Printers",
+        "Electronic accessories"
+      ],
+      "processing_info": {
+        "dismantling": "Disassembly of electronics into core components.",
+        "sorting": "Segregation of materials such as metals, plastics, and circuit boards.",
+        "shredding": "Shredding non-reusable parts for recycling preparation.",
+        "recycling": "Use of eco-friendly methods to recover valuable materials."
+      },
+      "service_areas": [
+        "Rajkot city",
+        "Nearby regions"
+      ],
+      "testimonials": [
+        "Rajkot E-Waste Solutions provided efficient and eco-friendly e-waste solutions."
+      ],
+      "customer_rating": 4.7,
+      "pricing_per_kg": 14
+    },
+    {
+      "name": "GreenTech Rajkot",
+      "contact": {
+        "phone": "+91 98765XXXXX",
+        "email": "info@greentechrajkot.com"
+      },
+      "city":"rajkot",
+      "address": "202, Eco Tower, Nana Mava Road, Rajkot, Gujarat, India",
+      "accepted_e_waste": [
+        "Mobile phones",
+        "Tablets",
+        "Batteries",
+        "Consumer electronics"
+      ],
+      "processing_info": {
+        "refurbishment": "Reconditioning of reusable electronics for resale or donation.",
+        "recycling": "Eco-friendly methods for non-reusable components.",
+        "data_destruction": "Secure data wiping services."
+      },
+      "service_areas": [
+        "Rajkot metropolitan area"
+      ],
+      "testimonials": [
+        "GreenTech Rajkot provided reliable and environmentally conscious e-waste management."
+      ],
+      "customer_rating": 4.5,
+      "pricing_per_kg": 13
+    },
+    {
+      "name": "EcoCycle Rajkot",
+      "contact": {
+        "phone": "+91 98765XXXXX",
+        "email": "support@ecocyclerajkot.in"
+      },
+      "city":"rajkot",
+      "address": "303, Green Park, Morbi Road, Rajkot, Gujarat, India",
+      "accepted_e_waste": [
+        "Computers",
+        "Servers",
+        "Networking equipment",
+        "Medical devices"
+      ],
+      "processing_info": {
+        "secure_data_destruction": "Certified processes for data wiping and destruction.",
+        "component_recovery": "Extraction of reusable materials and precious metals.",
+        "environmental_compliance": "Adherence to strict environmental standards."
+      },
+      "service_areas": [
+        "Rajkot",
+        "Surrounding industrial zones"
+      ],
+      "testimonials": [
+        "EcoCycle Rajkot provided exemplary service in managing our company's e-waste."
+      ],
+      "customer_rating": 4.8,
+      "pricing_per_kg": 15
+    },
+    {
+      "name": "RecycleIT Rajkot",
+      "contact": {
+        "phone": "+91 98765XXXXX",
+        "email": "contact@recycleitrajkot.com"
+      },
+      "city":"rajkot",
+      "address": "404, IT Hub, University Road, Rajkot, Gujarat, India",
+      "accepted_e_waste": [
+        "Printers",
+        "Monitors",
+        "Electronic accessories",
+        "Household electronics"
+      ],
+      "processing_info": {
+        "advanced_sorting": "Technological sorting for efficient material separation.",
+        "environmental_practices": "Eco-friendly methods for handling hazardous materials.",
+        "certifications": "Compliance with environmental regulations."
+      },
+      "service_areas": [
+        "Rajkot city",
+        "Suburban areas"
+      ],
+      "testimonials": [
+        "RecycleIT Rajkot provided reliable and environmentally responsible e-waste recycling."
+      ],
+      "customer_rating": 4.6,
+      "pricing_per_kg": 14
+    },
+    {
+      "name": "E-Waste Solutions Rajkot",
+      "contact": {
+        "phone": "+91 98765XXXXX",
+        "email": "info@ewasterajkot.com"
+      },
+      "city":"rajkot",
+      "address": "505, EcoWorld, Gondal Road, Rajkot, Gujarat, India",
+      "accepted_e_waste": [
+        "Televisions",
+        "Audio equipment",
+        "Kitchen appliances",
+        "Electronic toys"
+      ],
+      "processing_info": {
+        "safe_dismantling": "Disassembly of electronics for material recovery.",
+        "material_recovery": "Extraction of valuable materials through sustainable practices.",
+        "community_engagement": "Education and promotion of eco-friendly e-waste practices."
+      },
+      "service_areas": [
+        "Rajkot urban",
+        "Rural areas"
+      ],
+      "testimonials": [
+        "E-Waste Solutions Rajkot provided excellent service and exceeded our expectations."
+      ],
+      "customer_rating": 4.4,
+      "pricing_per_kg": 12
+    },
+     {
+      "name": "Mehsana E-Waste Recyclers",
+      "contact": {
+        "phone": "+91 98765XXXXX",
+        "email": "info@mehsanaewasterecyclers.com"
+      },
+      "city":"mehsana",
+      "address": "101, Eco Lane, Highway Road, Mehsana, Gujarat, India",
+      "accepted_e_waste": [
+        "Computers",
+        "Laptops",
+        "Mobile phones",
+        "Printers",
+        "Electronic accessories"
+      ],
+      "processing_info": {
+        "dismantling": "Advanced techniques for disassembling electronics.",
+        "sorting": "Segregation of different materials such as metals and plastics.",
+        "shredding": "Preparation of non-reusable parts for recycling.",
+        "recycling": "Use of eco-friendly methods to recover valuable materials."
+      },
+      "service_areas": [
+        "Mehsana city",
+        "Nearby regions"
+      ],
+      "testimonials": [
+        "Mehsana E-Waste Recyclers provided effective and eco-friendly e-waste solutions."
+      ],
+      "customer_rating": 4.7,
+      "pricing_per_kg": 14
+    },
+    {
+      "name": "EcoGreen Mehsana",
+      "contact": {
+        "phone": "+91 98765XXXXX",
+        "email": "contact@ecogreenmehsana.com"
+      },
+      "city":"mehsana",
+      "address": "202, Green Park, Modhera Road, Mehsana, Gujarat, India",
+      "accepted_e_waste": [
+        "Mobile phones",
+        "Tablets",
+        "Batteries",
+        "Consumer electronics"
+      ],
+      "processing_info": {
+        "refurbishment": "Reconditioning of reusable electronics.",
+        "recycling": "Environmentally friendly methods for non-reusable components.",
+        "data_destruction": "Secure data wiping services to ensure data protection."
+      },
+      "service_areas": [
+        "Mehsana metropolitan area"
+      ],
+      "testimonials": [
+        "EcoGreen Mehsana provided reliable and eco-conscious e-waste management."
+      ],
+      "customer_rating": 4.6,
+      "pricing_per_kg": 13
+    },
+    {
+      "name": "GreenCycle Mehsana",
+      "contact": {
+        "phone": "+91 98765XXXXX",
+        "email": "support@greencyclemehsana.in"
+      },
+      "city":"mehsana",
+      "address": "303, Eco Plaza, Palanpur Road, Mehsana, Gujarat, India",
+      "accepted_e_waste": [
+        "Computers",
+        "Servers",
+        "Networking equipment",
+        "Medical devices"
+      ],
+      "processing_info": {
+        "secure_data_destruction": "Certified processes for data wiping and destruction.",
+        "component_recovery": "Extraction of reusable materials and precious metals.",
+        "environmental_compliance": "Adherence to strict environmental standards."
+      },
+      "service_areas": [
+        "Mehsana",
+        "Surrounding industrial zones"
+      ],
+      "testimonials": [
+        "GreenCycle Mehsana provided exemplary service in managing our company's e-waste."
+      ],
+      "customer_rating": 4.8,
+      "pricing_per_kg": 15
+    },
+    {
+      "name": "RecycleIT Mehsana",
+      "contact": {
+        "phone": "+91 98765XXXXX",
+        "email": "info@recycleitmehsana.com"
+      },
+      "city":"mehsana",
+      "address": "404, IT Hub, Patan Road, Mehsana, Gujarat, India",
+      "accepted_e_waste": [
+        "Printers",
+        "Monitors",
+        "Electronic accessories",
+        "Household electronics"
+      ],
+      "processing_info": {
+        "advanced_sorting": "Technological sorting for efficient material separation.",
+        "environmental_practices": "Eco-friendly methods for handling hazardous materials.",
+        "certifications": "Compliance with environmental regulations."
+      },
+      "service_areas": [
+        "Mehsana city",
+        "Suburban areas"
+      ],
+      "testimonials": [
+        "RecycleIT Mehsana provided reliable and environmentally responsible e-waste recycling."
+      ],
+      "customer_rating": 4.6,
+      "pricing_per_kg": 14
+    },
+    {
+      "name": "E-Waste Solutions Mehsana",
+      "contact": {
+        "phone": "+91 98765XXXXX",
+        "email": "contact@ewastemehsana.com"
+      },
+      "city":"mehsana",
+      "address": "505, EcoWorld, Highway Road, Mehsana, Gujarat, India",
+      "accepted_e_waste": [
+        "Televisions",
+        "Audio equipment",
+        "Kitchen appliances",
+        "Electronic toys"
+      ],
+      "processing_info": {
+        "safe_dismantling": "Disassembly of electronics for material recovery.",
+        "material_recovery": "Extraction of valuable materials through sustainable practices.",
+        "community_engagement": "Education and promotion of eco-friendly e-waste practices."
+      },
+      "service_areas": [
+        "Mehsana urban",
+        "Rural areas"
+      ],
+      "testimonials": [
+        "E-Waste Solutions Mehsana provided excellent service and exceeded our expectations."
+      ],
+      "customer_rating": 4.5,
+      "pricing_per_kg": 12
+    }
+  
+
+
+  ]

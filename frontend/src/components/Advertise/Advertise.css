@@ -1,0 +1,90 @@
+.recycler-form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f0f9f4;
+    border: 1px solid #c3e6cb;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.recycler-form h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    color: #1b5e20;
+}
+
+.recycler-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.recycler-form label {
+    margin-bottom: 8px;
+    color: #388e3c;
+}
+
+.recycler-form input,
+.recycler-form textarea {
+    padding: 10px;
+    margin-bottom: 12px;
+    border: 1px solid #c3e6cb;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: #ffffff;
+}
+
+.recycler-form input[type="number"] {
+    width: 100px;
+}
+
+.recycler-form textarea {
+    resize: vertical;
+    min-height: 80px;
+}
+
+.recycler-form button {
+    padding: 10px 20px;
+    margin-top: 12px;
+    background-color: #4caf50;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.recycler-form button:hover {
+    background-color: #388e3c;
+}
+
+.recycler-form button[type="button"] {
+    margin-left: 10px;
+    background-color: #f44336;
+}
+
+.recycler-form button[type="button"]:hover {
+    background-color: #d32f2f;
+}
+
+.recycler-form button[type="submit"] {
+    align-self: flex-end;
+}
+
+.recycler-form button[type="submit"]:hover {
+    background-color: #388e3c;
+}
+
+.recycler-form .form-section {
+    margin-bottom: 20px;
+}
+
+.recycler-form .form-section label {
+    font-weight: bold;
+    color: #1b5e20;
+}
+
+.recycler-form .form-section input,
+.recycler-form .form-section textarea {
+    width: 100%;
+}

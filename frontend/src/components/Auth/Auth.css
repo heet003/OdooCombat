@@ -1,15 +1,96 @@
-.authentication__header {
-  color: white;
-  text-align: center;
-}
-
 .authentication {
-  width: 90%;
-  max-width: 25rem;
-  margin: 7rem auto;
-  text-align: center;
+  width: 100%;
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
 }
 
-.authentication form {
+.form_header {
+  text-align: center;
   margin-bottom: 1rem;
+}
+
+.auth_form {
+  display: flex;
+  flex-direction: column;
+}
+
+.auth_form label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.auth_form input,
+.auth_form select,
+.auth_form textarea {
+  width: 100%;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.auth_form input[type="checkbox"] {
+  margin-right: 0.5rem;
+}
+
+.auth_form button {
+  margin-top: 1rem;
+}
+
+.auth_form hr {
+  margin: 1rem 0;
+  border: none;
+  border-top: 1px solid #ccc;
+}
+
+.auth_form .form-control--invalid input,
+.auth_form .form-control--invalid select,
+.auth_form .form-control--invalid textarea {
+  border-color: #d32f2f;
+  /* Red color for invalid state */
+}
+
+.form-control--invalid p {
+  color: #d32f2f;
+  margin: 0.5rem 0;
+  font-size: 0.875rem;
+}
+
+.auth_form .form-control--invalid label {
+  color: #d32f2f;
+}
+
+.authentication button,
+.authentication a {
+  width: 100%;
+  margin-top: 1rem;
+  padding: 0.5rem;
+  text-align: center;
+  background-color: #2e7d32;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.authentication button:hover,
+.authentication a:hover {
+  background-color: #4caf50;
+}
+
+.authentication .auth_switch {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+@media (min-width: 768px) {
+  .authentication {
+    width: 70%;
+  }
 }
